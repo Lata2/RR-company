@@ -1,0 +1,81 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  max-width: 50%;
+  margin: auto;
+  /* border: '1px solid black'; */
+}
+
+h1 {
+  color: green;
+  margin-bottom: 20px;
+}
+
+.upload-section {
+  margin-bottom: 20px;
+}
+
+.upload-section div {
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+input[type="file"] {
+  display: inline-block;
+}
+
+.buttonContained {
+  margin-top: 20px;
+}
+
+.compare-button {
+  margin: 5px;
+  background-color:green;
+  color: white;
+}
+.download-button {
+  margin: 5px;
+  background-color:white;
+  color:green ;
+}
+
+.result-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.result-table th, .result-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.result-table th {
+  background-color: #f4f4f4;
+}
+
+.result-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.result-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+@media (max-width: 600px) {
+  .result-table th, .result-table td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .result-table th {
+    text-align: right;
+  }
+}
